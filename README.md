@@ -9,9 +9,14 @@ A password generator with C/C++ implementations
 - Simple command-line interface
 
 ## Getting Started
-1. Clone the repository
-2. Compile the projects using Make
-3. Run the password generator
+1. Clone the repository: `git clone https://github.com/AmpTer42/passgen.git`
+2. Compile the projects using Make:
+   - `make all` to build both implementations
+   - `make clean` to remove compiled files
+3. Run the password generator:
+   - C implementation: `./passgen`
+   - C++ implementation: `./passgen_c`
+4. Install system-wide (requires sudo): `sudo make install`
 
 ## Build Instructions
 ```bash

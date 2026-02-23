@@ -1,5 +1,5 @@
 CXX = g++
-CC = cproc
+CC = gcc
 CXXFLAGS = -std=c++11 -Wall -Wextra -O2
 CFLAGS = -std=c99 -Wall -Wextra -O2
 
