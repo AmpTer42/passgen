@@ -41,6 +41,7 @@ This will compile both implementations:
 - The C implementation uses a basic random generator
 - The C++ version uses C++11 random facilities
 - Generated passwords are printed to stdout
+- This software was written with AI assistance
 
 ## Contributing
 Enhance the password generation algorithm or add new features!
