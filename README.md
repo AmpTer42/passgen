@@ -1,0 +1,43 @@
+# passgen
+
+A multi-language password generator toolkit with C/C++ implementations
+
+## Features
+- Generates secure random passwords
+- Supports letters, numbers, and symbols
+- Both C and C++ implementations
+- Simple command-line interface
+
+## Getting Started
+1. Clone the repository
+2. Compile the projects using Make
+3. Run the password generator
+
+## Build Instructions
+```bash
+make all
+```
+This will compile both implementations:
+- `passgen` (C implementation)
+- `passgen_c` (C++ implementation)
+
+## Usage
+### C Implementation (`passgen`)
+```bash
+./passgen
+```
+
+### C++ Implementation (`passgen_c`)
+```bash
+./passgen_c
+```
+
+## Notes
+- The C implementation uses a basic random generator
+- The C++ version uses C++11 random facilities
+- Generated passwords are printed to stdout
+
+## Contributing
+Enhance the password generation algorithm or add new features!
+
+For more information, see the [Makefile](Makefile) for build details.
