@@ -1,6 +1,6 @@
 # passgen
 
-A multi-language password generator toolkit with C/C++ implementations
+A password generator with C/C++ implementations
 
 ## Features
 - Generates secure random passwords
