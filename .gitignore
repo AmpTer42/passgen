@@ -1,0 +1,38 @@
+# Compiler
+*.out
+*.exe
+*.o
+*.a
+*.so
+*.dylib
+
+# Build directories
+/build
+/bin
+/dist
+
+# IDE
+.project
+.cproject
+.settings
+.ide
+.vscode
+
+# Temporary files
+*.swp
+*~.swp
+.*.swp
+
+# Logs and caches
+*.log
+*.tmp
+.cache
+.lock
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Binaries from Makefile
+passgen
+passgen_c
